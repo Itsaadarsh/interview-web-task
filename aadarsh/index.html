@@ -1,13 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aadarsh | Portfolio</title>
-    <link rel="stylesheet" href="./styles.css">
+  <meta charset="utf-8">
+  <title>Aadarsh | Portfolio</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://kit.fontawesome.com/b0d4caeadc.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Hey Mofos!</h1>
-    <script src="./index.js"></script>
+  <landing-page id="home">
+    <div id="particles-js">
+      <div class="intro">
+        <h2>Hey, I'm <span class="intro-name">Aadarsh.</span><br><br>
+          Mastering Modern Full Stack Web Development</h2>
+      </div>
+      <br>
+      <div class="btn">
+        <a href="#about"><h2>Explore<i class="fas fa-level-down-alt fa-1x"></i></h2></a>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('particles.json loaded...');
+      });
+    </script>
+  </landing-page>
+  <nav class="navbar">
+    <div class="nav-elements">
+      <ul>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT ME</a>
+        <a href="#contact">CONTACT</a>
+      </ul>
+    </div>
+  </nav>
+  <aboutpage id="about">
+    <div class="about-pg">
+      <h1>ABOUT ME</h1>
+      <div class="btm-line"></div>
+      <div class="about-content">
+        <img src="./images/profile.jpg" class = "abt-img">
+        <div class="content">
+          <h2>Here's a little about me!</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nisi distinctio quae quam officiis adipisci id fugit beatae vero! Qui amet numquam nihil aspernatur, impedit quisquam magnam laboriosam similique repellendus architecto, quidem quaerat, nulla aperiam temporibus suscipit, ducimus natus. Saepe, voluptatem, distinctio! Unde excepturi dolores molestias ipsa nisi aliquid maiores.</p>
+        </div>
+      </div>
+    </div>
+  </aboutpage>
+
 </body>
+
 </html>
