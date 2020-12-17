@@ -107,11 +107,17 @@ body {
 }
 
 #about .about-content {
-  display: grid;
-  grid-template-rows: 10% 90%;
-  border: 2px black solid;
+  border: 6px solid black;
+  border-radius: 2rem;
+  font-size: larger;
+  font-weight: bold;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 #about .abt-img {
+  border-radius: 10rem;
   width: 20%;
 }
