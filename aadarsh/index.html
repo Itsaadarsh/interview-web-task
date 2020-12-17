@@ -38,18 +38,41 @@
   </nav>
   <aboutpage id="about">
     <div class="about-pg">
-      <h1>ABOUT ME</h1>
-      <div class="btm-line"></div>
+      <h1 style="border-bottom: 3px solid">ABOUT ME</h1>
       <div class="about-content">
         <img src="./images/profile.jpg" class = "abt-img">
         <div class="content" style="padding: 2rem;">
-          <h2 style="padding-bottom: 1.5rem;">Here's a little about me!</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nisi distinctio quae quam officiis adipisci id fugit beatae vero! Qui amet numquam nihil aspernatur, impedit quisquam magnam laboriosam similique repellendus architecto, quidem quaerat, nulla aperiam temporibus suscipit, ducimus natus. Saepe, voluptatem, distinctio! Unde excepturi dolores molestias ipsa nisi aliquid maiores.</p>
+          <h2 style="padding-bottom: 2.5rem;">Here's a little about me!</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nisi distinctio quae quam officiis adipisci id fugit beatae vero Praesentium nisi distinctio quae quam officiis adipisci id fugit beatae vero! Qui amet numquam nihil aspernatur, impedit quisquam magnam laboriosam similique repellendus architecto, quidem quaerat, nulla aperiam temporibus suscipit, ducimus natus. Saepe, voluptatem, distinctio! Unde excepturi dolores molestias ipsa nisi aliquid maiores.</p>
         </div>
       </div>
     </div>
   </aboutpage>
-
+  <contactpage id="contact" class="container">  
+    <h1 style="border-bottom: 3px solid">CONTACT ME</h1>
+    <form id="contact" action="" method="post">
+      <fieldset>
+        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+    </form>
+   
+    
+  </contactpage>
 </body>
 
 </html>
